@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(white, gray);
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+	display: block;
+	border: 3px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.work-experience {
+	float: left;
+	left: 50%;
+	margin-bottom: 100px;
+	margin-left: 500px;
+	width: 400px;
+}
+
+.pro-info {
+	float: right;
+	width: 300px;
+	left: 50%;
+	margin-right: 500px;
+}
+
+.personal-info {
+	margin-left: 500px;
+	width: 400px;
+	float: left;
+}
+
+.education {
+	float: right;
+	width: 300px;
+	margin-right: 500px;
+
+	margin-top: 40px;
+}
+
+.other-info {
+	clear: right;
+	margin-left: 700px;
+}
+
+.inputs {
+	float: left;
+}
+
+.inputs input {
+	width: 230px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.coll:hover {
+	background: #000;
+	color: white;
+}
+
+
+.coll:active {
+	background: gray;
+	color: lightgray;
+}
