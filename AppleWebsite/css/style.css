@@ -254,18 +254,4 @@ nav ul li a {
 	width: 200px;
 }
 
-@media screen and (max-width: 375px) {
-	.content {
-		display: block;
-	}
-	.left-side {
-		width: 335px;
-	}
 
-	.right-side {
-		width: 350px;
-
-		margin-left: 0;
-	}
-
-}
